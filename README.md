@@ -26,7 +26,9 @@ PlayStore: https://play.google.com/store/apps/details?id=com.wiryaimd.yamltransl
 Example Translated Yml:
 
 *From English Language*<br>
-![](https://proxy.spigotmc.org/5e880ffb41a92e256cd662bd97212ec93cebd2f1?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F651664699594899466%2F802739075299016744%2Ffrom.PNG?raw=true)
+![](fromrsw1.PNG?raw=true)
 <br>
+<br>
+
 *To Indonesian Language*<br>
-![](https://proxy.spigotmc.org/530b02e57bd9aaa314792a86b41fb86ae5cf4bb8?url=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F651664699594899466%2F802739091438567464%2Fto.PNG?raw=true)
+![](to3423.PNG?raw=true)
