@@ -22,9 +22,9 @@ PlayStore: https://play.google.com/store/apps/details?id=com.wiryaimd.yamltransl
 - Disable translate when prefix is #
 - Disable translate when prefix is stripe (-)
 - Disable translate right side &
+<br>
 
-Example Translated Yml:
-
+**Example Translated Yml:**<br>
 *From English Language*<br>
 ![](fromrsw1.PNG?raw=true)
 <br>
