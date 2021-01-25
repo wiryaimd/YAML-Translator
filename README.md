@@ -14,7 +14,6 @@ PlayStore: https://play.google.com/store/apps/details?id=com.wiryaimd.yamltransl
 - Save translated yml to file
 - Copy yml text
 <br>
-<br>
 
 **Word Settings:**
 - Add words that won't be translated
