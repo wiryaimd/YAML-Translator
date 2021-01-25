@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background4">
+
+    <TextView
+        android:id="@+id/devinfo_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/sfbold"
+        android:text="App Information"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="22sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/devinfo_devname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devinfo_title"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_ripple1"
+        android:drawableStart="@drawable/ic_dev"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/sfreguler"
+        android:padding="6dp"
+        android:text="Developer: Wiryaimd"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/devinfo_versionapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devinfo_devname"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_ripple1"
+        android:drawableStart="@drawable/ic_version"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/sfreguler"
+        android:padding="6dp"
+        android:text="Version App: 1.0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/devinfo_problemissue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devinfo_versionapp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_ripple1"
+        android:drawableStart="@drawable/ic_problem"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/sfreguler"
+        android:padding="6dp"
+        android:text="Problems Issue: Uppercase &amp; in middle {} Feature Settings will be fixed soon"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/devinfo_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devinfo_problemissue"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_ripple1"
+        android:drawableStart="@drawable/ic_contact"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/sfreguler"
+        android:padding="6dp"
+        android:text="Contact: adnyasutha003@gmail.com"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp">
+
+    </TextView>
+
+
+</RelativeLayout>

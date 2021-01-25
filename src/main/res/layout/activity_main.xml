@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/sfbold"
+            android:text="Yaml Translator"
+            android:textColor="@color/color2"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/main_devinfo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_info">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_actionbar"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:id="@+id/main_linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/main_relativefromflag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_background2">
+
+                <Spinner
+                    android:id="@+id/main_spinfrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown">
+
+                </Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="6dp"
+                    android:src="@drawable/ic_arrow">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/main_relativetoflag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_background2">
+
+                <Spinner
+                    android:id="@+id/main_spinto"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@android:color/transparent"
+                    android:spinnerMode="dropdown">
+
+                </Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="6dp"
+                    android:src="@drawable/ic_arrow">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/main_blacklistword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_linear1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_background1"
+            android:drawableStart="@drawable/ic_list"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Settings Word"
+            android:textColor="@color/color2"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/main_btntranslate"
+            android:layout_below="@id/main_blacklistword">
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/main_btntranslate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="12dp"
+            android:background="@drawable/custom_background1"
+            android:drawableTop="@drawable/ic_translate"
+            android:padding="8dp"
+            android:text="Translate"
+            android:textColor="@color/color1"
+            android:textSize="16sp">
+
+        </Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>

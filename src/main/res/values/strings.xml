@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yaml Translator</string>
+    <string name="ad1">adid</string>
+    <string name="appid">appid</string>
+</resources>

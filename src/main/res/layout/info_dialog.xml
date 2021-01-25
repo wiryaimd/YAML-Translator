@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_background2">
+
+    <TextView
+        android:id="@+id/infodialog_title"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/sfbold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:text="INFO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/infodialog_desc"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/infodialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/infodialog_btnok"
+        android:layout_margin="12dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/infodialog_desc"
+        android:textColor="@color/color1"
+        android:text="Ok"
+        android:background="@drawable/custom_background1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</RelativeLayout>

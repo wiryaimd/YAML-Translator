@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/translate_loading"
+        android:visibility="visible"
+        android:layout_below="@id/translate_edtlive"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/translate_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="12dp"
+        android:text="Translating line 1..."
+        android:textSize="14sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/translate_edtlive"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/translate_line"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_background4"
+        android:enabled="false"
+        android:gravity="start|top"
+        android:padding="6dp"
+        android:text="anjas meranajs"
+        android:textColor="@color/color7"
+        android:textSize="14sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/translate_btncancel"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/translate_edtlive"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/color1"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/custom_background3"
+        android:text="Cancel">
+
+    </Button>
+
+    <FrameLayout
+        android:id="@+id/translate_frame"
+        android:layout_below="@id/translate_edtlive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</RelativeLayout>

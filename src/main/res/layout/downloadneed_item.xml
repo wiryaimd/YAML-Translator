@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/custom_background2">
+
+    <TextView
+        android:id="@+id/downloadneed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:fontFamily="@font/sfbold"
+        android:paddingStart="12dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="4dp"
+        android:text="INFO"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/downloadneed_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/downloadneed_title"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/sfreguler"
+        android:text="If this is your first time translating using this language then you need to download the model first"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/downloadneed_ok"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/downloadneed_desc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_background1"
+        android:text="Ok"
+        android:textColor="@color/color1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/downloadneed_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/downloadneed_desc"
+        android:layout_marginBottom="8dp"
+        android:layout_toStartOf="@+id/downloadneed_ok"
+        android:background="@android:color/transparent"
+        android:text="Cancel"
+        android:textColor="@color/colorPrimary">
+
+    </Button>
+
+</RelativeLayout>

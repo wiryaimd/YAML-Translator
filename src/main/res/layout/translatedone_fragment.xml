@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:padding="8dp"
+        android:src="@drawable/ic_save"
+        android:background="@drawable/custom_background4"
+        android:layout_margin="8dp"
+        android:id="@+id/transdone_imgsave"
+        android:layout_width="100dp"
+        android:layout_height="50dp">
+
+    </ImageView>
+
+    <ImageView
+        android:padding="12dp"
+        android:layout_toEndOf="@id/transdone_imgsave"
+        android:src="@drawable/ic_copy"
+        android:background="@drawable/custom_background4"
+        android:layout_margin="8dp"
+        android:id="@+id/transdone_imgcopy"
+        android:layout_width="100dp"
+        android:layout_height="50dp">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/transdone_btnclose"
+        android:layout_margin="8dp"
+        android:text="Close"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_background2"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</RelativeLayout>

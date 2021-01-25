@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/blacklist_title"
+        android:text="Words that won't be translated"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:layout_margin="6dp"
+        android:textSize="20sp"
+        android:background="@drawable/custom_background2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_below="@+id/blacklist_title"
+        android:id="@+id/blacklist_linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/custom_background1"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/blacklist_tvmiddlepersen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="in middle %"
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <Switch
+
+            android:id="@+id/blacklist_middlepersen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background2">
+
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/blacklist_title"
+        android:id="@+id/blacklist_linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_toEndOf="@id/blacklist_linear1"
+        android:background="@drawable/custom_background1"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/blacklist_tvmiddlekurawal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="in middle { }"
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <Switch
+            android:enabled="false"
+            android:id="@+id/blacklist_middlekurawal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background2">
+
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blacklist_parentlinear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blacklist_linear1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/blacklist_linear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background1"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/blacklist_tvstartwith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:text="Prefix #"
+                android:textColor="@color/color1">
+
+            </TextView>
+
+            <Switch
+                android:id="@+id/blacklist_startwith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_background2">
+
+            </Switch>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/blacklist_linear4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background1"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/blacklist_tvsidedan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:text="Side &amp;"
+                android:textColor="@color/color1">
+
+            </TextView>
+
+            <Switch
+                android:id="@+id/blacklist_sidedan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_background2">
+
+            </Switch>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blacklist_linear5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blacklist_parentlinear1"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_background1"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/blacklist_tvuppercase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:text="Uppercase"
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <Switch
+            android:enabled="false"
+            android:id="@+id/blacklist_uppercase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background2">
+
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blacklist_linear6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blacklist_parentlinear1"
+        android:layout_toEndOf="@id/blacklist_linear5"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_background1"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/blacklist_tvstripe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:text="Prefix Stripe (-) "
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <Switch
+            android:enabled="true"
+            android:id="@+id/blacklist_stripe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background2">
+
+        </Switch>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:nestedScrollingEnabled="true"
+        android:id="@+id/blacklist_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/blacklist_linear5"
+        android:layout_margin="8dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/blacklist_inputword"
+        android:layout_below="@id/blacklist_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:padding="2dp"
+        android:hint="Input to add word here.."
+        android:layout_height="40dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/blacklist_inputword">
+
+        <Button
+            android:id="@+id/blacklist_btnsave"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/custom_background2"
+            android:text="save">
+
+        </Button>
+
+        <Button
+            android:id="@+id/blacklist_btnaddword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_background1"
+            android:text="Add Word"
+            android:textColor="@color/color1">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

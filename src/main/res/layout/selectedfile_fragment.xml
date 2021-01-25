@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/selectfile_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_background2"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/selectfile_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_doc">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/selectfile_filename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/selectfile_icon"
+            android:fontFamily="@font/sflight"
+            android:text=""
+            android:textSize="20sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/selectfile_pastetextlinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectfile_relative"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_ripple1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="6dp"
+            android:text="Or Paste Text"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/selectfile_pastetext"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_ripple1"
+            android:src="@drawable/ic_paste">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</RelativeLayout>
