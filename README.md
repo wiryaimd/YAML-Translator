@@ -1,7 +1,7 @@
 # YAML-Translator
 Automatic translate yml file messages with 59 language
 
-NOTE: This is an android application you can install and translate yml messages there
+**NOTE:** This is an android application you can install and translate yml messages there
 
 Spigotmc: https://www.spigotmc.org/resources/yml-file-translator.88222/
 <br>
