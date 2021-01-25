@@ -502,4 +502,5 @@ public class TranslateFragment extends DialogFragment {
 
         return result;
     }
+    
 }
